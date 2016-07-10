@@ -160,7 +160,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &1168094405
 GameObject:
   m_ObjectHideFlags: 0
@@ -219,7 +219,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 100
-  field of view: 50
+  field of view: 57
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -309,34 +309,34 @@ Transform:
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
---- !u!1 &1605349076
+  m_RootOrder: 3
+--- !u!1 &1464897149
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1605349079}
-  - 212: {fileID: 1605349078}
-  - 95: {fileID: 1605349077}
+  - 4: {fileID: 1464897152}
+  - 212: {fileID: 1464897151}
+  - 95: {fileID: 1464897150}
   m_Layer: 0
-  m_Name: Korey
+  m_Name: 53
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!95 &1605349077
+--- !u!95 &1464897150
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1605349076}
+  m_GameObject: {fileID: 1464897149}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d35f0f2125b76eb4db916a359af6a2ae, type: 2}
+  m_Controller: {fileID: 9100000, guid: b5a954724d2ee224ba70288feb44fb9e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -344,12 +344,12 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!212 &1605349078
+--- !u!212 &1464897151
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1605349076}
+  m_GameObject: {fileID: 1464897149}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -370,23 +370,23 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: eb5a5c48146a1ef4396c98656eb89295, type: 3}
+  m_Sprite: {fileID: 21300118, guid: eb5a5c48146a1ef4396c98656eb89295, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
---- !u!4 &1605349079
+--- !u!4 &1464897152
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1605349076}
+  m_GameObject: {fileID: 1464897149}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.38, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 3}
+  m_LocalPosition: {x: 0, y: -4.54, z: 0}
+  m_LocalScale: {x: 6.448766, y: 6.4487653, z: 6.4487653}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1 &2010124610
 GameObject:
   m_ObjectHideFlags: 0
